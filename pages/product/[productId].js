@@ -16,6 +16,7 @@ import Head from 'next/head'
           <main className={styles.main}>
             <h1 className={styles.title}>{ title }</h1>
             <p>Product ID: { productId }</p>
+            <a href={`${Number(productId) + 1}`}>View Next Product</a>
           </main>
         </div>
       )
