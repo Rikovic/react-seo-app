@@ -31,6 +31,10 @@ export default function Home() {
             <p>See our products.</p>
           </a>
 
+          <a href="users" className={styles.card}>
+            <h2>Users &rarr;</h2>
+            <p>See our users.</p>
+          </a>
         </div>
       </main>
 
