@@ -6,7 +6,7 @@ export default function Users( {data} ){
     return (
         <div className={styles.container}>
         <Head>
-            <title>About - My Clothing Store</title>
+            <title>Users - My Clothing Store</title>
             <meta name="description" content="A list of users!" />
             <meta property="og:title" content="Users - My Clothing Store" />
             <meta property="og:description" content="My Users!" />
